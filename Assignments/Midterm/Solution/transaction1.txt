@@ -8,7 +8,7 @@
 8 Iphone9
 9 Iphone9, Iphone15, Iphone5
 10 Iphone8
-11 Iphone14, Iphone15, Iphone10
+11 Iphone14, Iphone15, Iphone10, Iphone11
 12 Iphone7
 13 Iphone7, Iphone6, Iphone5
 14 Iphone6
