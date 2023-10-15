@@ -1,0 +1,20 @@
+1 Tomatoes, Bread, Butter
+2 Bread, Onions, Milk
+3 Rice, Bread
+4 Butter, Onions, Tomatoes, Eggs
+5 Pasta, Cheese, Chicken, Tomatoes
+6 Chicken, Tomatoes, Pasta, Milk, Eggs
+7 Butter, Chicken, Milk, Eggs
+8 Pasta, Milk, Tomatoes
+9 Pasta
+10 Cheese, Bread
+11 Onions, Rice, Butter, Cheese, Eggs
+12 Onions, Milk
+13 Chicken, Eggs, Cheese, Bread, Milk
+14 Pasta, Onions, Rice, Eggs
+15 Eggs
+16 Onions, Rice
+17 Milk, Cheese, Chicken, Tomatoes
+18 Onions
+19 Butter, Cheese, Milk
+20 Tomatoes, Onions

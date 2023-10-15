@@ -1,0 +1,20 @@
+1 Nintendo Switch, HDD
+2 Xbox, HDD, SDD, Digital Camera, Nintendo Switch
+3 Gaming Mouse, Xbox, HDD, Scanner, Digital Camera
+4 Gaming Mouse
+5 HDD
+6 HDD, Nintendo Switch, Desktop, Scanner
+7 PS5, Printer, SDD
+8 Xbox, SDD, HDD, PS5
+9 Printer, Digital Camera, HDD
+10 SDD, PS5, Nintendo Switch
+11 SDD, HDD, Desktop, Scanner
+12 HDD
+13 Nintendo Switch, Digital Camera, PS5
+14 Xbox
+15 Scanner, HDD, PS5, Printer
+16 Xbox, PS5
+17 HDD, Xbox
+18 SDD, Scanner
+19 Digital Camera, SDD, Scanner, Xbox, Desktop
+20 HDD, Scanner, Printer, Nintendo Switch

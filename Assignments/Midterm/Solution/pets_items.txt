@@ -1,0 +1,20 @@
+1 Dog Food, Bird Seed, Cat Litter, Fish Tank, Cat Tree
+2 Dog Food
+3 Cat Tree, Bird Seed, Pet Bed, Pet Toys
+4 Pet Toys
+5 Bird Cage, Cat Litter, Dog Leash, Aquarium Filter, Fish Tank
+6 Cat Tree, Cat Litter, Bird Cage
+7 Cat Tree, Cat Litter, Pet Toys, Aquarium Filter
+8 Dog Food
+9 Fish Tank, Pet Bed, Cat Tree
+10 Pet Bed, Dog Leash, Aquarium Filter, Cat Litter
+11 Cat Litter, Bird Cage
+12 Bird Cage, Cat Tree, Pet Bed
+13 Fish Tank
+14 Bird Cage, Cat Tree, Pet Bed, Pet Toys
+15 Cat Tree, Fish Tank, Dog Leash, Cat Litter, Pet Toys
+16 Fish Tank, Bird Cage, Dog Leash
+17 Bird Cage
+18 Pet Toys, Cat Tree, Bird Cage, Dog Food
+19 Cat Litter, Fish Tank, Bird Seed, Aquarium Filter
+20 Bird Cage

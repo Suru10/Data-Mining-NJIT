@@ -1,0 +1,20 @@
+1 Toys, Shoes, Coffee Maker, Bath Towels
+2 Bath Towels
+3 Curtains, Desk Lamp
+4 Cushion, Toys, Cookware Set, T-shirt, Shoes
+5 Coffee Maker, Shoes, Blanket, Cushion, Curtains
+6 Shoes, Blanket, Cookware Set, Toys
+7 Curtains
+8 T-shirt, Curtains
+9 Curtains, Desk Lamp
+10 Shoes, Curtains, Cushion, Bath Towels, Blanket
+11 Cushion
+12 Cookware Set, Coffee Maker, Curtains, Desk Lamp
+13 Coffee Maker
+14 Curtains, Blanket, Desk Lamp, T-shirt
+15 Coffee Maker, Cushion, Toys
+16 Toys
+17 Bath Towels, Blanket, Cookware Set, Coffee Maker, Shoes
+18 Desk Lamp, Shoes, Coffee Maker, Blanket
+19 Blanket, Coffee Maker, Desk Lamp, Cushion
+20 Blanket, Curtains
