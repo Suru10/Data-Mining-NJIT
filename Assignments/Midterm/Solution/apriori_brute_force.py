@@ -141,7 +141,7 @@ def generate_all_rules(data, tables, min_support, min_confidence):
                             rules.append((antecedent, consequent, itemset_support, confidence))
     return rules
 # Apriori
-def apriori_library(file_path):
+def apriori_library(file_path, minimum_support, minimum_confidence):
     with open(file_path, 'r') as f:
         transactions = [line.strip().split() for line in f.readlines()]
 
@@ -153,10 +153,10 @@ def apriori_library(file_path):
     oht = pd.DataFrame([[item in transaction for item in items] for transaction in cleaned_transactions], columns=items)
 
     # Apply the Apriori algorithm
-    frequent_itemsets = apriori(oht, min_support=0.1, use_colnames=True)
+    frequent_itemsets = apriori(oht, min_support=minimum_support, use_colnames=True)
 
     # Generate association rules
-    rules = association_rules(frequent_itemsets, metric="lift", min_threshold=0.1)
+    rules = association_rules(frequent_itemsets, metric="lift", min_threshold=minimum_confidence)
 
     print(rules)
 
@@ -183,10 +183,10 @@ def execute_brute_force(file_path, min_support_value, min_confidence_value):
 # Testing the function with writing capability
 electronic_file_path = "electronics_items.txt"
 electronics_items = ['Digital Camera', 'Desktop', 'Printer', 'Xbox', 'Scanner', 'PS5', 'Nintendo Switch', 'Gaming Mouse', 'SDD', 'HDD']
-electronics_items_data = generate_transactions_and_write(electronics_items, 5, electronic_file_path)
+electronics_items_data = generate_transactions_and_write(electronics_items, 4, electronic_file_path)
 print_transactions(electronics_items_data)
-execute_brute_force(electronic_file_path, 0.1, 0.1)
-apriori_library(electronic_file_path)
+execute_brute_force(electronic_file_path, 0.1, 0.5)
+apriori_library(electronic_file_path, 0.1, 0.5)
 
 
 grocery_items = ['Milk', 'Bread', 'Eggs', 'Butter', 'Cheese','Tomatoes', 'Onions', 'Rice', 'Pasta', 'Chicken']

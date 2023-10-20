@@ -163,7 +163,7 @@ def apriori_library(file_path, minimum_support, minimum_confidence):
     frequent_itemsets = apriori(oht, min_support=minimum_support, use_colnames=True)
 
     # Generate association rules
-    rules = association_rules(frequent_itemsets, min_threshold=minimum_confidence)
+    rules = association_rules(frequent_itemsets, metric="lift", min_threshold=minimum_confidence)
 
     print(rules)
 
@@ -192,5 +192,5 @@ electronic_file_path = "electronics_items.txt"
 electronics_items = ['Digital Camera', 'Desktop', 'Printer', 'Xbox', 'Scanner', 'PS5', 'Nintendo Switch', 'Gaming Mouse', 'SDD', 'HDD']
 electronics_items_data = generate_transactions_and_write(electronics_items, 5, electronic_file_path)
 print_transactions(electronics_items_data)
-execute_brute_force(electronic_file_path, 0.1, 0.1)
-apriori_library(electronic_file_path, 0.1, 0.1)
+execute_brute_force(electronic_file_path, 0.3, 0.0)
+apriori_library(electronic_file_path, 0.0000001, 0.0)

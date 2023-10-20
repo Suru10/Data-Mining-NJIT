@@ -1,20 +1,20 @@
-1 Toys, Shoes, Coffee Maker, Bath Towels
-2 Bath Towels
-3 Curtains, Desk Lamp
-4 Cushion, Toys, Cookware Set, T-shirt, Shoes
-5 Coffee Maker, Shoes, Blanket, Cushion, Curtains
-6 Shoes, Blanket, Cookware Set, Toys
-7 Curtains
-8 T-shirt, Curtains
-9 Curtains, Desk Lamp
-10 Shoes, Curtains, Cushion, Bath Towels, Blanket
-11 Cushion
-12 Cookware Set, Coffee Maker, Curtains, Desk Lamp
-13 Coffee Maker
-14 Curtains, Blanket, Desk Lamp, T-shirt
-15 Coffee Maker, Cushion, Toys
-16 Toys
-17 Bath Towels, Blanket, Cookware Set, Coffee Maker, Shoes
-18 Desk Lamp, Shoes, Coffee Maker, Blanket
-19 Blanket, Coffee Maker, Desk Lamp, Cushion
-20 Blanket, Curtains
+1 Coffee Maker, Cushion, Toys, Curtains
+2 Blanket, Cushion, Bath Towels, T-shirt
+3 Shoes, Cookware Set, Desk Lamp, Cushion, Blanket
+4 Bath Towels, Cookware Set, Desk Lamp, Shoes, Curtains
+5 T-shirt, Curtains, Desk Lamp
+6 T-shirt, Curtains, Cushion
+7 Curtains, Coffee Maker, Cookware Set, Desk Lamp
+8 T-shirt, Curtains, Toys, Blanket, Coffee Maker
+9 Cushion, Curtains, Bath Towels
+10 Shoes, Curtains, Desk Lamp, Toys
+11 Cookware Set, Cushion, Desk Lamp, T-shirt, Bath Towels
+12 Cushion
+13 Toys, Blanket
+14 Cushion, Coffee Maker, Toys
+15 Cookware Set, Curtains, Toys, Coffee Maker
+16 Bath Towels
+17 Coffee Maker, T-shirt
+18 Shoes, Bath Towels, Curtains, Cookware Set, Toys
+19 Cushion, Blanket
+20 Blanket, Coffee Maker
