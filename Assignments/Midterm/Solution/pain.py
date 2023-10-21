@@ -163,7 +163,7 @@ def apriori_library(file_path, minimum_support, minimum_confidence):
     frequent_itemsets = apriori(oht, min_support=minimum_support, use_colnames=True)
 
     # Generate association rules
-    rules = association_rules(frequent_itemsets, min_threshold=minimum_confidence)
+    rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=minimum_confidence)
 
     print(rules)
 

@@ -1,20 +1,20 @@
-1 Desktop, HDD
-2 Desktop
-3 Digital Camera, Nintendo Switch, Desktop, Gaming Mouse, Scanner
-4 Digital Camera, Nintendo Switch, Gaming Mouse, SDD, Scanner
-5 Digital Camera, Xbox
-6 Gaming Mouse, HDD
-7 Gaming Mouse, Digital Camera, Scanner, Desktop, Printer
-8 Gaming Mouse, Scanner, HDD, Digital Camera, SDD
-9 Xbox, PS5, HDD
-10 Printer, PS5
-11 Nintendo Switch, Gaming Mouse, HDD
-12 Desktop, SDD, PS5, Printer, HDD
-13 HDD, Printer
-14 PS5
-15 Gaming Mouse, Scanner, HDD, Printer
-16 Printer, Xbox, Digital Camera, PS5, HDD
-17 Xbox, Scanner, SDD, Desktop, HDD
-18 SDD, Gaming Mouse
-19 Desktop, Printer, Digital Camera, Xbox
-20 Printer, Xbox, PS5
+1 Scanner
+2 Scanner, SDD, Nintendo Switch
+3 Nintendo Switch, Printer
+4 SDD, HDD, PS5
+5 HDD
+6 Printer
+7 Gaming Mouse, HDD, Digital Camera, Nintendo Switch
+8 Desktop, Gaming Mouse, HDD
+9 Scanner, Digital Camera, Printer, HDD
+10 PS5
+11 Desktop, Xbox, Gaming Mouse, Nintendo Switch
+12 Digital Camera, Desktop, Xbox, Scanner, Gaming Mouse
+13 Printer, Digital Camera, SDD
+14 Scanner, PS5
+15 Xbox, Scanner, HDD, SDD, Gaming Mouse
+16 Xbox, Digital Camera, Scanner, Desktop
+17 SDD, HDD
+18 Digital Camera, Desktop, SDD
+19 Scanner, Nintendo Switch, Xbox
+20 Printer, Nintendo Switch, Scanner
