@@ -147,18 +147,22 @@ def execute_brute_force(items_data, min_support_value, min_confidence_value):
 
 #-------------------------------------------------------
 # Time for executing
+# below is the parameter to play with 
+min_support = 0.1
+min_confidence = 0.5
+items_generate_per_trans = 7
 # Table 1
 print("-----------------------------------------------------------------------------")
 print("Table 1")
 electronic_file_path = "electronics_items.txt"
 electronics_items = ['Digital Camera', 'Desktop', 'Printer', 'Xbox', 'Scanner', 'PS5', 'Nintendo Switch', 'Gaming Mouse', 'SDD', 'HDD']
-electronics_items_data = generate_transactions_and_write(electronics_items, 7, electronic_file_path)
+electronics_items_data = generate_transactions_and_write(electronics_items, items_generate_per_trans, electronic_file_path)
 print_transactions(electronics_items_data)
 start_time_b = time.time()
-execute_brute_force(electronics_items_data, 0.1, 0.5)
+execute_brute_force(electronics_items_data, min_support, min_confidence)
 end_time_b = time.time()
 start_time = time.time()
-apriori_library(electronics_items_data, 0.1, 0.5)
+apriori_library(electronics_items_data, min_support, min_confidence)
 end_time = time.time()
 print("RUNTIME OF BRUTE FORCE: ", end_time_b - start_time_b)
 print("RUNTIME OF APRIORI LIBRARY: ", end_time - start_time)
@@ -168,13 +172,13 @@ print("-------------------------------------------------------------------------
 print("Table 2")
 grocery_items = ['Milk', 'Bread', 'Eggs', 'Butter', 'Cheese','Tomatoes', 'Onions', 'Rice', 'Pasta', 'Chicken']
 grocery_file_path = "grocery_items.txt"
-grocery_items_data = generate_transactions_and_write(grocery_items, 7, grocery_file_path)
+grocery_items_data = generate_transactions_and_write(grocery_items, items_generate_per_trans, grocery_file_path)
 print_transactions(grocery_items_data)
 start_time_b = time.time()
-execute_brute_force(grocery_items_data, 0.1, 0.5)
+execute_brute_force(grocery_items_data, min_support, min_confidence)
 end_time_b = time.time()
 start_time = time.time()
-apriori_library(grocery_items_data, 0.1, 0.5)
+apriori_library(grocery_items_data, min_support, min_confidence)
 end_time = time.time()
 print("RUNTIME OF BRUTE FORCE: ", end_time_b - start_time_b)
 print("RUNTIME OF APRIORI LIBRARY: ", end_time - start_time)
@@ -184,13 +188,13 @@ print("-------------------------------------------------------------------------
 print("Table 3")
 kmart_items = ['T-shirt', 'Cookware Set', 'Shoes', 'Toys', 'Bath Towels','Desk Lamp', 'Cushion', 'Curtains', 'Coffee Maker', 'Blanket']
 kmart_items_file_path = "kmart_items.txt"
-kmart_items_data = generate_transactions_and_write(kmart_items, 7, kmart_items_file_path)
+kmart_items_data = generate_transactions_and_write(kmart_items, items_generate_per_trans, kmart_items_file_path)
 print_transactions(kmart_items_data)
 start_time_b = time.time()
-execute_brute_force(kmart_items_data, 0.1, 0.5)
+execute_brute_force(kmart_items_data, min_support, min_confidence)
 end_time_b = time.time()
 start_time = time.time()
-apriori_library(kmart_items_data, 0.1, 0.5)
+apriori_library(kmart_items_data, min_support, min_confidence)
 end_time = time.time()
 print("RUNTIME OF BRUTE FORCE: ", end_time_b - start_time_b)
 print("RUNTIME OF APRIORI LIBRARY: ", end_time - start_time)
@@ -200,13 +204,13 @@ print("-------------------------------------------------------------------------
 print("Table 4")
 flowers_items = ['Roses', 'Tulips', 'Daisies', 'Lilies', 'Sunflowers','Orchids', 'Carnations', 'Lavender', 'Chrysanthemums', 'Daffodils']
 grocery_file_path = "flowers_items.txt"
-flowers_items_data = generate_transactions_and_write(grocery_items, 7, grocery_file_path)
+flowers_items_data = generate_transactions_and_write(grocery_items, items_generate_per_trans, grocery_file_path)
 print_transactions(flowers_items_data)
 start_time_b = time.time()
-execute_brute_force(flowers_items_data, 0.1, 0.5)
+execute_brute_force(flowers_items_data, min_support, min_confidence)
 end_time_b = time.time()
 start_time = time.time()
-apriori_library(flowers_items_data, 0.1, 0.5)
+apriori_library(flowers_items_data, min_support, min_confidence)
 end_time = time.time()
 print("RUNTIME OF BRUTE FORCE: ", end_time_b - start_time_b)
 print("RUNTIME OF APRIORI LIBRARY: ", end_time - start_time)
@@ -216,13 +220,13 @@ print("-------------------------------------------------------------------------
 print("Table 5")
 pets_items = ['Dog Food', 'Cat Litter', 'Bird Cage', 'Fish Tank', 'Pet Toys','Dog Leash', 'Cat Tree', 'Bird Seed', 'Aquarium Filter', 'Pet Bed']
 pets_items_file_path = "pets_items.txt"
-pets_items_data = generate_transactions_and_write(pets_items, 7, pets_items_file_path)
+pets_items_data = generate_transactions_and_write(pets_items, items_generate_per_trans, pets_items_file_path)
 print_transactions(pets_items_data)
 start_time_b = time.time()
-execute_brute_force(pets_items_data, 0.1, 0.5)
+execute_brute_force(pets_items_data, min_support, min_confidence)
 end_time_b = time.time()
 start_time = time.time()
-apriori_library(pets_items_data, 0.1, 0.5)
+apriori_library(pets_items_data, min_support, min_confidence)
 end_time = time.time()
 print("RUNTIME OF BRUTE FORCE: ", end_time_b - start_time_b)
 print("RUNTIME OF APRIORI LIBRARY: ", end_time - start_time)
