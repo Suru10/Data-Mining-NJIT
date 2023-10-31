@@ -1,3 +1,4 @@
+
 import time
 import itertools
 import random
@@ -82,9 +83,9 @@ def frequent_itemset_generator(transactions, min_support):
         for combo in itertools.combinations(valid_itemsets, 2): # go over each combination two at a time
             possible_itemset = sorted(list(set(itertools.chain(*combo)))) # create itemset and using set removes duplicates
             if len(possible_itemset) == len(combo[0]) + 1: # basically check if it has one more itemset genrated. example from 2 tiemset to 3 itemset
-                next_level_itemsets.add(tuple(possible_itemset))
+                next_level_itemsets.add(tuple(possible_itemset)) # this is essentially an early stop mechanic,
         k_itemsets = [] # reset k_itemset for the next itemsets
-        for itemset in next_level_itemsets:
+        for itemset in next_level_itemsets: # if there isnt any k -itemset it will remain empty result in early stop
             k_itemsets.append(list(itemset)) # casting with list to keep up the format
     
     return frequent_itemsets # return the final frequent itemsets
